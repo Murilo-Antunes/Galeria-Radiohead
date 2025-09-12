@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Radiohead;
+    src: url(fonte/bdplakatt.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    border-color: transparent;
+    height: 0.5vh;
+    margin-bottom: 2vw;
+    background-image: linear-gradient(to right, transparent, rgb(169, 4, 4), red, rgb(169, 4, 4), transparent);
+    background-repeat: no-repeat;
+
+}
+
+
+body{
+  background-image: url(imagens/background_wallpaper.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header{
+    color: black;
+    text-shadow: 0px 0px 1vw rgb(255, 0, 0);
+    text-align: center;
+    padding: 2px;
+    font-size: 5vw;
+    font-family: "Radiohead";
+    transition: 1s;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+main img{
+    width: 15vw;
+    height: 15vw;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+    box-shadow: 3px 5px 6px #00000096;
+}
+
+ main img:hover{
+    box-shadow: 0px 0px 20px 2px white;
+    transform: scale(1.070);
+    transition: 0.5s ease-in-out;
+    border: 3px solid rgb(244, 244, 244);
+}
+
+
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+a p{
+    font-size: 1.5vw;
+    color: black;
+    background-color: white;
+    width: 15vw;
+    margin-top: 0.8vw;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: ease-in-out, 0.5s;
+    text-align: center;
+}
+
+a p:hover{
+    background-color: black;
+    transform: scale(1.075);
+    color: white;
+    transition: ease-in-out, 0.5s;
+}
+
+
+
+
+.linha3{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.linha1{
+    display: flex;
+    justify-content: space-evenly;
+}
